@@ -1,0 +1,36 @@
+# Odoo specific files and directories
+*.pyc
+*.log
+.odoorc
+.idea/
+pycache/
+/odoo-server.log
+/odoo-data/
+/odoo-sessions/
+/web/static/lib/
+/web/static/src/xml/
+/web/static/src/scss/
+/web/static/src/js/
+/web/static/src/css/
+/addons/
+/reports/
+/l10n_*/
+/test_*/
+/data/
+/log/
+/filestore/
+/sessions/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Editor specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
