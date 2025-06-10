@@ -9,7 +9,7 @@
         - Updates company logo.
     """,
     'author': 'Ernesto Gomez',
-    'website': 'https://www.tu-web.com',
+    'website': 'https://www.cantv.com.ve',
     'depends': ['web', 'base'], # Depende del módulo web para las assets
     'data': [
         'views/custom_web_templates.xml',
