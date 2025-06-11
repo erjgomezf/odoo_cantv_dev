@@ -1,4 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_product_template_cantv,product.template.cantv,model_product_template,base.group_user,1,1,1,1
-access_stock_move_cantv,stock.move.cantv,model_stock_move,base.group_user,1,1,1,1
-access_stock_picking_cantv,stock.picking.cantv,model_stock_picking,base.group_user,1,1,1,1
+access_product_template_cantv,Product Template CANTV Access,model_product_template,base.group_user,1,1,1,1

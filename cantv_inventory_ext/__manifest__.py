@@ -9,7 +9,9 @@
     'depends': ['stock', 'product'], # Esto es crucial
     'data': [
         'security/ir.model.access.csv',
-        'views/product_template_views.xml',
+        'views/product_template_views.xml', # Archivo XML que define las vistas y campos adicionales
+        'report/inventory_report.xml', # Reporte de inventario personalizado
+        'report/inventory_report_templates.xml', # Plantillas del reporte de inventario
     ],
     'installable': True,
     'application': False,

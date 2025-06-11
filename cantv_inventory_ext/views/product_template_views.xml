@@ -15,11 +15,16 @@
                 <page string="Detalles CANTV" name="cantv_details" attrs="{'invisible': [('is_cantv_asset', '=', False)]}">
                     <group>
                         <field name="cantv_serial_number"/>
-                        <field name="cantv_acquisition_date"/>
+                        <field name="cantv_acquisition_date"/>                        
                         <field name="cantv_estimated_lifespan"/>
                         <field name="cantv_asset_state"/>
                         <field name="cantv_responsible_person"/>
                         <field name="cantv_notes"/>
+
+                        <field name="cantv_brand"/>
+                        <field name="cantv_model"/>
+                        <field name="cantv_material_sir_code"/>
+                        <field name="cantv_sap_code"/>
                     </group>
                 </page>
             </xpath>
