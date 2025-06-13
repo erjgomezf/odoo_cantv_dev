@@ -12,6 +12,9 @@
         'views/product_template_views.xml', # Archivo XML que define las vistas y campos adicionales
         'report/inventory_report.xml', # Reporte de inventario personalizado
         'report/inventory_report_templates.xml', # Plantillas del reporte de inventario
+        'report/incoming_report_templates.xml', # Plantillas del reporte de entradas
+        'views/stock_picking_views.xml', # Vistas para stock.picking
+        'report/outgoing_report_templates.xml', # Plantillas del reporte de salidas
     ],
     'installable': True,
     'application': False,
